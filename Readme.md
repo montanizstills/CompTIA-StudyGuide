@@ -1,0 +1,1 @@
+This repository is a formal study guide in the form of Jason Dion, CompTIA fellow. 
