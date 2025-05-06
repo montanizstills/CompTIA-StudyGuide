@@ -142,6 +142,7 @@
 - Cloud assessment and compliance tools
 
 # Audits vs Assessments vs Certifications
+- Certifications provide formal recognization that an organization has met certain standards
 
 ## External
 - Third-party audits
