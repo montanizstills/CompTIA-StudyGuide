@@ -38,6 +38,7 @@
 - NERC CIP (North American Electric Reliability Corporation Critical Infrastructure Protection)
   - Standards for electric utility industry
   - Protection of critical cyber assets
+- Federal Energy Regulatory Commission
 - Water/wastewater system security
 - TSA Pipeline Security Guidelines
 - NRC (Nuclear Regulatory Commission) requirements
