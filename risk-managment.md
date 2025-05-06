@@ -43,7 +43,7 @@
 
 
 ## Availability Risk Considerations: 
-`(is about ensuring data is accessible to authorized users when needed, not protecting it from unauthorized access.`)
+`(is about ensuring data is accessible to authorized users when needed, not protecting it from unauthorized access.)`
 
     - Redundancy
         ○ Server Redundancy (Load Balancers or Failover Configuration)
@@ -55,7 +55,7 @@
 `(involves assessing and mitigating risk associated with parities that provide data or services)`
 
 ### Risk(s)
-- Vendor security assessment: Vendor risk
+- Vendor risk: Vendor security assessment
 - Supply Chain risks: Supply chain risk analysis
 - Contractual security requirements
 - Ongoing monitoring and auditing
@@ -74,34 +74,35 @@
 # Risk Assessment Frameworks: 
 `(used to identify and asses and manage risks with enterprise organization(s) and address potential threats, ensure compliance and protect asses  in operation.)`
 
-                        □ NIST Cybersecurity Framework (CSF)
-                        □ ISO 27001/27005
-                        □ FAIR (Factor Analysis of Information Risk)
-                        □ OCTAVE (Operational Critical Threat, Asset, and Vulnerability Evaluation)
-                        □ COBIT (Control Objectives for Information and Related Technologies)
+- NIST Cybersecurity Framework (CSF): FISMA, NIST RMF (gov't issued saftey manual, emphasis on continuous monitoring and on-going risk assessment)
+- ISO 27001/27005
+- COSO ERM: aligns risk management w/ business strategy, designed to address risks across entire organization
+- FAIR (Factor Analysis of Information Risk)
+- OCTAVE (Operational Critical Threat, Asset, and Vulnerability Evaluation): tactical operations guide, analyzing from internal perspective
+- COBIT (Control Objectives for Information and Related Technologies)
                         
-# Risk Assessment and Response: 
+# Risk Assessment: 
 `(identifies, analyzes and evaluates risk impact and guides implementation of mitigation strategies.)`
 
-                            • Quantitative analysis: Numerical data a statistical methods to measure risk
-                            • Qualitative analysis: Subject non-numerical criteria, SME(s) experience
-                            • Risk appetite : amount of risk org is willing to accept
-                            • Risk tolerance: specific level of acceptable risk within appetite
-                            • Risk prioritization: ranking of risk based on impact and likelihood
+- Quantitative analysis: Numerical data a statistical methods to measure risk
+- Qualitative analysis: Subject non-numerical criteria, SME(s) experience
+- Risk appetite : amount of risk org is willing to accept
+- Risk tolerance: specific level of acceptable risk within appetite
+- Risk prioritization: ranking of risk based on impact and likelihood
                     
 # Risk Response: 
 `(information and controls to mitigate identified risk)`
 
-                        - Validation: confirms accuracy and completeness of identified risks
-                        - severity impact: quantifies consequences of validated  risk and guide prioritization
-                        - Remediations: implementation of actionable risk management and mitigation strategies
+- Validation: confirms accuracy and completeness of identified risks
+- Severity impact: quantifies consequences of validated  risk and guide prioritization
+- Remediations: implementation of actionable risk management and mitigation strategies
                     
 # Impact Analysis: 
 `(Evaluates the consequences of identified risk on operations, asset objectives. Quantifies how adverse events could affect continuity, financial performance, and compliance.)`
 
-                            □ Financial impact assessment
-                            □ Operational impact assessment
-                            □ Reputational impact assessment
-                            □ Regulatory and compliance implications
-                            □ Business continuity considerations
+- Financial impact assessment
+- Operational impact assessment
+- Reputational impact assessment
+- Regulatory and compliance implications
+- Business continuity considerations
                         
