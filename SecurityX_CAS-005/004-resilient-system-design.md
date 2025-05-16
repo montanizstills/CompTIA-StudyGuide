@@ -206,3 +206,53 @@
   - Gap analysis methodologies
   - Remediation planning
   - Example: Automated compliance dashboard showing real-time control effectiveness with evidence collection capability
+
+  ## Deployment Strategies
+
+- **Blue-Green Deployment**
+  - Parallel environments setup requirements
+  - Traffic cutover planning and implementation
+  - Rollback capabilities and procedures
+  - Monitoring during transition periods
+  - Infrastructure duplication considerations
+  - Example: Maintaining identical production and standby environments with DNS switching for zero-downtime upgrades
+
+- **Canary Deployment**
+  - Phased rollout percentage planning
+  - User segmentation strategies
+  - Metrics and KPIs for success evaluation
+  - Automated rollback triggers
+  - A/B testing integration possibilities
+  - Example: Deploying new application version to 5% of users, gradually increasing to 100% based on error rate metrics
+
+- **Rolling Deployment**
+  - Instance group rotation methodologies
+  - Health check integration
+  - Session draining configuration
+  - Partial failure handling
+  - Service mesh integration options
+  - Example: Kubernetes rolling update deploying new container images across pods with health probes ensuring availability
+
+- **Immutable Infrastructure**
+  - Infrastructure as Code (IaC) implementation
+  - Golden image creation processes
+  - Configuration management strategies
+  - Version control for infrastructure
+  - Testing and validation pipelines
+  - Example: Using Terraform to deploy immutable EC2 instances from AMIs built via automated Packer pipeline
+
+- **Continuous Deployment/Delivery**
+  - Pipeline automation requirements
+  - Testing stages and quality gates
+  - Artifact management systems
+  - Approval workflows
+  - Deployment frequency considerations
+  - Example: Jenkins pipeline automatically deploying code to production after passing unit, integration, and security tests
+
+- **Feature Flags**
+  - Implementation frameworks and libraries
+  - Granular control mechanisms
+  - Runtime toggle management
+  - Technical debt considerations
+  - Operational vs. release toggles
+  - Example: Using LaunchDarkly to gradually enable new payment processing feature with ability to disable instantly if issues arise
